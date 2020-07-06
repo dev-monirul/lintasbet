@@ -271,3 +271,27 @@ a.livechat img {
     font-size: 12px;
     font-weight: 700;
 }
+section.header-top {
+    padding-top: 15px;
+}
+
+.scroll-top {
+    width: 45px;
+    height: 45px;
+    background-image: linear-gradient(#f7f491, #7c5116);
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    z-index: 9;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}

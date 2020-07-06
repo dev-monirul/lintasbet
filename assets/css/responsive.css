@@ -5,12 +5,160 @@
 }
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
- 
+    .login-form input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    a.dafter-btn {
+        float: right !important;
+    }
+    .login-form.text-right a {
+        margin: 0;
+        width: 48%;
+        float: left;
+    }
+    
+    .feature-content {
+        width: 100%;
+        float: none;
+    }
+    .permainan-slide {
+        width: 100%;
+        float: none;
+    }
+    
+    .hero-content {
+        background: none;
+    }
+    
+    .contact {
+        width: 100%;
+        float: none;
+        background-image: url(../img/contact-bg.png);
+        background-size: 100% 100%;
+        background-position: center center;
+        height: 400px;
+    }
+    .hero-slide {
+        width: 100%;
+        padding: 0;
+    }
+    .contact ul {
+        margin: 0;
+    }
+    a.livechat {
+        display: none;
+    }
+    
+    .contact ul {
+        padding-top: 110px;
+    }
+    
+    .contact ul li:nth-child(2) a {
+        padding-top: 23px;
+    }
+    
+    .contact ul li:nth-child(3) a {
+        padding-top: 25px;
+    }
+    
+    .contact ul li:nth-child(4) a {
+        padding-top: 25px;
+    }
+    .mean-container a.meanmenu-reveal{
+        top: -15px;
+    }
+    nav.mean-nav li a img {
+        height: 25px;
+        margin-right: 3px;
+    }
+    
+    nav.mean-nav li a i {
+        margin-right: 10px;
+    }
     
 }
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
  
+.login-form input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+a.dafter-btn {
+    float: right !important;
+}
+.login-form.text-right a {
+    margin: 0;
+    width: 48%;
+    float: left;
+}
+
+.feature-content {
+    width: 100%;
+    float: none;
+}
+.permainan-slide {
+    width: 100%;
+    float: none;
+}
+
+.hero-content {
+    background: none;
+}
+
+.contact {
+    width: 100%;
+    float: none;
+    background-image: url(../img/contact-bg.png);
+    background-size: 100% 100%;
+    background-position: center center;
+    height: 400px;
+}
+.hero-slide {
+    width: 100%;
+    padding: 0;
+}
+.contact ul {
+    margin: 0;
+}
+a.livechat {
+    display: none;
+}
+
+.contact ul {
+    padding-top: 110px;
+}
+
+.contact ul li:nth-child(2) a {
+    padding-top: 23px;
+}
+
+.contact ul li:nth-child(3) a {
+    padding-top: 25px;
+}
+
+.contact ul li:nth-child(4) a {
+    padding-top: 25px;
+}
+.mean-container a.meanmenu-reveal{
+    top: -15px;
+}
+nav.mean-nav li a img {
+    height: 25px;
+    margin-right: 3px;
+}
+
+nav.mean-nav li a i {
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
     
 }
 /* Wide Mobile Layout: 480px. */
