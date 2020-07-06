@@ -1,0 +1,273 @@
+body{
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-position: center center;
+    overflow-x: hidden;
+}
+.login-form input {
+    padding: 6px 10px;
+    display: inline-block;
+    border: 1px solid #fff;
+    position: relative;
+    top: 3px;
+    margin: 0 3px;
+}
+
+.login-form.text-right a {
+    display: inline-block;
+    margin: 0 3px;
+}
+
+.login-form.text-right a img {
+    width: 100%;
+}
+.logo img {
+    width: 170px;
+}
+
+.login-form.text-right form {
+    margin-top: 25px;
+    background-image: linear-gradient(#045b90, #02a3d7);
+    display: inline-block;
+    padding: 12px;
+    border-radius: 15px 15px 0 0;
+}
+.runing-text{
+    background-image: linear-gradient(#045b90, #02a3d7);
+    padding: 0 15px;
+}
+marquee {
+    color: #fff;
+    background: #000;
+    padding: 8px 0;
+}
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mainmenu ul li {
+    display: inline-block;
+}
+
+.mainmenu ul li a {
+    color: #fff;
+}
+
+a {
+    text-decoration: none !important;
+}
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mainmenu ul li {
+    display: inline-block;
+}
+
+.mainmenu ul li a {
+    color: #fff;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.contact {
+    width: 22%;
+    float: left;
+}
+
+.hero-slide {
+    width: 78%;
+    float: right;
+    padding: 8px 8px 8px 12px;
+}
+.mainmenu ul li a i {
+    font-size: 22px;
+    margin-right: 8px;
+}
+
+.mainmenu ul li a img {height: 30px;}
+
+.mainmenu ul li a {
+    padding: 8px 20.5px;
+    display: block;
+    position: relative;
+}
+.mainmenu ul li a:after{
+    position: absolute;
+    right: 0;
+    height: 35px;
+    width: 2px;
+    background-image: linear-gradient(#045b90, #02a3d7);
+    content: "";
+    top: 5px;
+}
+.mainmenu ul li:nth-child(8) a:after{
+    display: none;
+}
+.mainmenu {
+    text-align: center;
+    background-image: linear-gradient(#035386, #009ece, #03273d, #03273d);
+}
+.hero-slide .owl-nav div {
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: -30px;
+    transition: .3s;
+  }
+  .hero-slide .owl-nav div.owl-next {
+    left: auto;
+    right: 50px;
+  }
+
+.permainan-slide .owl-nav div {
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: -50px;
+    transition: .3s;
+  }
+  .permainan-slide .owl-nav div.owl-next {
+    left: auto;
+    right: 50px;
+  }
+  .permainan-slide .owl-nav div img{
+      height: 50px;
+  }
+  .hero-slide .owl-dots div {
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    background: #FFF;
+    margin: 5px;
+    border-radius: 50%;
+  }
+  .hero-slide .owl-dots div.active {
+    background: #e8d14f;
+  }
+  .hero-slide .owl-dots {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    text-align: center;
+    width: 100%;
+  }
+  .hero-content{
+      background-image: url(../img/slc-bg.png);
+      background-size: 100% 100%;
+      background-position: center left;
+      overflow: hidden;
+  }
+  .contact ul li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    display: block;
+    line-height: 48px;
+}
+
+.contact ul {
+    margin: 65px 0 0 50px;
+}
+.permainan-content{
+    background-image: url(../img/PERMAINAN.png);
+    background-size: 100% 100%;
+    background-position: center center;
+    overflow: hidden;
+}
+.permainan-slide {
+    width: 52%;
+    float: right;
+    margin-top: 40px;
+}
+.permainan-slide-single img {
+    max-height: 115px;
+}
+
+.permainan-slide-single {
+    text-align: center;
+    background: #d0d0d0;
+}
+
+.permainan-slide-single a {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 500;
+    display: block;
+}
+section.footer-area img {
+    width: 100%;
+}
+a.livechat img {
+    width: 100%;
+    padding: 10px;
+}
+.feature-content{
+    background-image: url(../img/BANNER\ BAWAH1.png);
+    background-size: 100% 100%;
+    background-position: center center;
+    height: 315px;
+    width: 33.33333%;
+    float: left;
+    border: 3px solid #4b6f6f;
+}
+.feature-content-bg-2{
+    background-image: url(../img/BANNER\ BAWAH2.png);
+}
+.feature-content-bg-3{
+    background-image: url(../img/BANNER\ BAWAH\ TOGEL.png);
+}
+
+.togel-title {
+    color: #ecc915;
+    text-transform: uppercase;
+    text-align: center;
+    width: 40%;
+    float: left;
+    display: inline-block;
+    font-size: 12px;
+}
+.togel-content-single{
+    overflow: hidden;
+}
+.togel-title span {
+    display: block;
+    font-size: 10px;
+    color: #fff;
+}
+.togel-content {
+    width: 60%;
+    float: right;
+    background-image:linear-gradient(#05224a, #0e64a1, #06386b);
+    margin-top: 60px;
+    padding-right: 10px;
+}
+
+.togel-number {
+    float: right;
+}
+
+.togel-number span {
+    color: #000;
+    background-image:linear-gradient(#f8fcfd, #bebebe);
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 3px;
+    font-size: 12px;
+    font-weight: 700;
+}
