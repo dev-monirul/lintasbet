@@ -152,8 +152,14 @@ nav.mean-nav li a img {
 nav.mean-nav li a i {
     margin-right: 10px;
 }
-
-
+.togel-content{
+    width: 75%;
+}
+.permainan-content{
+    background-image: url(../img/mobile-PERMAINAN.png);
+    background-size: cover;
+    background-position: center center;
+}
 
 
 
