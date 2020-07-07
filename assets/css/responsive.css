@@ -120,6 +120,7 @@ a.dafter-btn {
 .hero-slide {
     width: 100%;
     padding: 0;
+    float: none;
 }
 .contact ul {
     margin: 0;
