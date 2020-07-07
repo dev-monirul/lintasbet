@@ -295,3 +295,10 @@ section.header-top {
     -o-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s;
 }
+.contact-mobile{
+    display: none;
+    margin-top: 135px;
+}
+.mean-container .mean-nav {
+    width: 92%;
+}

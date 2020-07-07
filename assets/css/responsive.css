@@ -1,6 +1,8 @@
 /* Medium Layout: 1280px. */
 @media only screen and (min-width: 992px) and (max-width: 1200px) { 
-  
+    .togel-content {
+        width: 70%;
+    }
     
 }
 /* Tablet Layout: 768px. */
@@ -160,8 +162,12 @@ nav.mean-nav li a i {
     background-size: cover;
     background-position: center center;
 }
-
-
+.contact-mobile{
+    display: block !important;
+}
+.contact{
+    display: none;
+}
 
 
 
